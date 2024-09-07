@@ -9,7 +9,7 @@ while( receivedText != "exit"):
     if receivedText == "exit":
         break
     print(receivedText)
-    messageArray = ["you are cute", "Hey whatre you up to", "Lets grab a drink", "How do you like your coffee?"]
+    messageArray = ["you are cute", "Hey whatre you up to", "Lets grab a drink", "How do you like your coffee?", "pass me your number so we can make plans"]
     randomMessage = messageArray[random.randint(0, 3)]
     print("Send her this: ")
     print(randomMessage)
