@@ -13,5 +13,5 @@ while( receivedText != "exit"):
     randomMessage = messageArray[random.randint(0, 3)]
     print("Send her this: ")
     print(randomMessage)
-print("Goodbye Rizzler, see you soon ;)")
+print("Goodbye Rizzler, goodluck and see you soon ;)")
     
